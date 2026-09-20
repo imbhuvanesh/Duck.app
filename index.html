@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DUCK — Your files. Automatically organised.</title>
+  <meta name="description" content="A lightweight Windows application that automatically keeps your files organised." />
+  <link rel="icon" type="image/jpeg" href="DUCK.jpg" />
+  <link rel="stylesheet" href="style.css" />
+  <noscript><style>#preloader{display:none}</style></noscript>
+</head>
+<body>
+
+  <!-- ===== Preloader ===== -->
+  <div class="preloader" id="preloader" aria-hidden="true">
+    <div class="preloader-inner">
+      <div class="preloader-icon" aria-hidden="true">
+        <span class="preloader-orbit"><span class="preloader-blackdot"></span></span>
+        <img class="preloader-logo" src="DUCK.jpg" alt="" draggable="false" />
+      </div>
+      <div class="preloader-dots" aria-hidden="true">
+        <span></span><span></span><span></span>
+      </div>
+      <span class="preloader-text">DUCK</span>
+    </div>
+  </div>
+
+  <!-- ===== Navigation ===== -->
+  <header class="nav" id="navbar">
+    <div class="nav-inner container">
+      <a href="#home" class="brand">
+        <img class="brand-mark" src="DUCK.jpg" alt="DUCK" />
+        <span class="brand-name">DUCK</span>
+      </a>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="#features">Features</a>
+        <a href="#about">About</a>
+        <a href="#download">Download</a>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="#" class="btn btn-primary btn-sm nav-download">Download</a>
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ===== Hero ===== -->
+  <section class="hero" id="home">
+    <div class="hero-glow" aria-hidden="true"></div>
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-logo">
+          <img class="hero-logo-img" src="DUCK.jpg" alt="DUCK" />
+        </div>
+        <h1 class="hero-title">DUCK</h1>
+        <p class="hero-tagline">Your files. Automatically organised.</p>
+        <p class="hero-sub">
+          A lightweight Windows application that automatically keeps your files organised.
+        </p>
+        <div class="hero-actions">
+          <a href="#" class="btn btn-primary" id="heroDownloadBtn">Download DUCK</a>
+          <a href="#preview" class="btn btn-ghost">Explore</a>
+        </div>
+        <p class="hero-note">Windows · Free · Works offline</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== App Preview ===== -->
+  <section class="preview" id="preview">
+    <div class="container">
+      <div class="app-mockup reveal" aria-label="DUCK application preview">
+        <div class="mockup-window">
+          <div class="mockup-titlebar">
+            <div class="mockup-dots" aria-hidden="true"><span></span><span></span><span></span></div>
+            <img class="mockup-logo" src="DUCK.jpg" alt="" />
+            <span class="mockup-title">DUCK</span>
+          </div>
+          <div class="mockup-body">
+            <div class="mockup-head">
+              <div>
+                <p class="mockup-kicker">Automatic File Organisation</p>
+                <h3 class="mockup-name">DUCK</h3>
+              </div>
+              <div class="toggle is-on" role="img" aria-label="Status: ON">
+                <span class="toggle-label">ON</span>
+              </div>
+            </div>
+            <ul class="mockup-list">
+              <li>
+                <span class="chat-icon chat-photo" aria-hidden="true"></span>
+                <span class="chat-name">Photos</span>
+                <span class="chat-count">24</span>
+              </li>
+              <li>
+                <span class="chat-icon chat-video" aria-hidden="true"></span>
+                <span class="chat-name">Videos</span>
+                <span class="chat-count">12</span>
+              </li>
+              <li>
+                <span class="chat-icon chat-doc" aria-hidden="true"></span>
+                <span class="chat-name">Documents</span>
+                <span class="chat-count">18</span>
+              </li>
+              <li>
+                <span class="chat-icon chat-soft" aria-hidden="true"></span>
+                <span class="chat-name">Softwares</span>
+                <span class="chat-count">7</span>
+              </li>
+              <li>
+                <span class="chat-icon chat-other" aria-hidden="true"></span>
+                <span class="chat-name">Others</span>
+                <span class="chat-count">5</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== About ===== -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="about-card reveal">
+        <h2 class="section-title">Meet DUCK</h2>
+        <p class="about-text">
+          DUCK is a lightweight Windows utility designed to keep your files
+          organised automatically.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Features ===== -->
+  <section class="features" id="features">
+    <div class="container">
+      <div class="section-head reveal">
+        <h2 class="section-title">Features</h2>
+        <p class="section-sub">Everything you need. Nothing you don't.</p>
+      </div>
+      <div class="features-grid">
+        <article class="feature-card reveal">
+          <div class="feature-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+              <path d="M3 7h11M3 12h8M3 17h11M18 4v16M18 4l3 3M18 4l-3 3" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <h3 class="feature-title">Automatic Organisation</h3>
+          <p class="feature-text">Automatically sorts files into the appropriate folders.</p>
+        </article>
+
+        <article class="feature-card reveal">
+          <div class="feature-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+              <path d="M4 6h16M4 12h16M4 18h10" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3 class="feature-title">Simple</h3>
+          <p class="feature-text">Designed to be easy to use without complicated configuration.</p>
+        </article>
+
+        <article class="feature-card reveal">
+          <div class="feature-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+              <path d="M6 18V9a6 6 0 0 1 12 0v9" stroke-linecap="round" stroke-linejoin="round"/>
+              <rect x="3" y="15" width="18" height="5" rx="2.5" />
+            </svg>
+          </div>
+          <h3 class="feature-title">Lightweight</h3>
+          <p class="feature-text">Runs quietly in the background without slowing you down.</p>
+        </article>
+
+        <article class="feature-card reveal">
+          <div class="feature-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+              <path d="M12 3v3m0 12v3m9-9h-3M6 12H3" stroke-linecap="round"/>
+              <circle cx="12" cy="12" r="3.5" />
+            </svg>
+          </div>
+          <h3 class="feature-title">Duplicate Protection</h3>
+          <p class="feature-text">Helps prevent files from being accidentally overwritten.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== How It Works ===== -->
+  <section class="how" id="how">
+    <div class="container">
+      <div class="section-head reveal">
+        <h2 class="section-title">How It Works</h2>
+        <p class="section-sub">Set up in seconds.</p>
+      </div>
+      <div class="steps">
+        <div class="step reveal">
+          <span class="step-num">01</span>
+          <h3 class="step-title">Download</h3>
+          <p class="step-text">Install DUCK on Windows.</p>
+        </div>
+        <div class="step reveal">
+          <span class="step-num">02</span>
+          <h3 class="step-title">Choose</h3>
+          <p class="step-text">Select the folder you want to organise.</p>
+        </div>
+        <div class="step reveal">
+          <span class="step-num">03</span>
+          <h3 class="step-title">Organise</h3>
+          <p class="step-text">DUCK handles the rest.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Categories ===== -->
+  <section class="categories" id="categories">
+    <div class="container">
+      <div class="section-head reveal">
+        <h2 class="section-title">App Categories</h2>
+        <p class="section-sub">The file types DUCK works with.</p>
+      </div>
+      <div class="categories-grid">
+        <article class="category-card reveal">
+          <span class="category-icon cat-photo" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+              <rect x="3" y="4" width="18" height="16" rx="3"/>
+              <circle cx="9" cy="10" r="1.8"/>
+              <path d="m5 18 5-5 3 3 3-3 3 3" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </span>
+          <h3 class="category-name">Photos</h3>
+        </article>
+        <article class="category-card reveal">
+          <span class="category-icon cat-video" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+              <path d="M4 6.5v11a1.5 1.5 0 0 0 2.2 1.3l9.4-5.5a1.5 1.5 0 0 0 0-2.6L6.2 5.2A1.5 1.5 0 0 0 4 6.5Z"/>
+            </svg>
+          </span>
+          <h3 class="category-name">Videos</h3>
+        </article>
+        <article class="category-card reveal">
+          <span class="category-icon cat-doc" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+              <path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8Z" stroke-linejoin="round"/>
+              <path d="M14 3v5h5" stroke-linejoin="round"/>
+            </svg>
+          </span>
+          <h3 class="category-name">Documents</h3>
+        </article>
+        <article class="category-card reveal">
+          <span class="category-icon cat-soft" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+              <path d="m8 9-3 3 3 3M16 9l3 3-3 3M13.5 5l-3 14" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </span>
+          <h3 class="category-name">Softwares</h3>
+        </article>
+        <article class="category-card reveal">
+          <span class="category-icon cat-other" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+              <path d="M21 8l-9-5-9 5v8l9 5 9-5Z" stroke-linejoin="round"/>
+              <path d="M3 8l9 5 9-5M12 13v8" stroke-linejoin="round"/>
+            </svg>
+          </span>
+          <h3 class="category-name">Others</h3>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Final CTA ===== -->
+  <section class="cta" id="download">
+    <div class="container">
+      <div class="cta-card reveal">
+        <div class="cta-glow" aria-hidden="true"></div>
+        <h2 class="cta-title">Ready to organise your files?</h2>
+        <p class="cta-text">Download DUCK for Windows.</p>
+        <a href="#" class="btn btn-primary btn-lg" id="downloadBtn">
+          <img class="btn-duck" src="DUCK.jpg" alt="" /> Download DUCK
+        </a>
+        <p class="cta-note">Free forever. No account needed.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Footer ===== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <a href="#home" class="brand">
+          <img class="brand-mark" src="DUCK.jpg" alt="DUCK" />
+          <span class="brand-name">DUCK</span>
+        </a>
+        <p class="footer-tagline">Your files. Automatically organised.</p>
+        <p class="footer-developer">Developed by Bhuvy</p>
+        <div class="footer-links">
+          <a href="#" class="footer-link" id="githubLink">GitHub</a>
+          <a href="#" class="footer-link" id="portfolioLink">Portfolio</a>
+        </div>
+        <p class="footer-copy">© 2026 Bhuvy</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
