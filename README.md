@@ -1,4 +1,4 @@
-##DUCK
+## DUCK
 
 ### Your files. Automatically organised.
 
